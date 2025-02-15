@@ -2,6 +2,7 @@
 variable "labelPrefix" {
   type        = string
   description = "Your college username. This will form the beginning of various resource names."
+  default = "pras0044"
 }
 
 variable "region" {
